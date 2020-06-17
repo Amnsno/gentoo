@@ -1,0 +1,128 @@
+# package.use# required by dev-qt/qtcore-5.14.0::gentoo
+# required by app-crypt/pinentry-1.1.0-r3::gentoo[qt5]
+# required by app-crypt/gnupg-2.2.19::gentoo
+# required by app-crypt/gpgme-1.13.1::gentoo
+# required by app-portage/portage-utils-0.84::gentoo
+# required by app-admin/perl-cleaner-2.28::gentoo
+# required by dev-lang/perl-5.30.1::gentoo
+# required by sys-devel/llvm-9.0.1::gentoo
+# required by media-libs/mesa-19.3.2::gentoo[-video_cards_r600,llvm,-video_cards_radeon,-opencl,-video_cards_radeonsi,gallium]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by dev-qt/qtgui-5.14.0-r2::gentoo
+# required by dev-qt/qtwidgets-5.14.0::gentoo
+# required by dev-util/cmake-3.16.2-r1::gentoo[qt5]
+# required by media-gfx/graphite2-1.3.13::gentoo
+# required by media-libs/harfbuzz-2.6.4::gentoo[graphite]
+>=dev-libs/libpcre2-10.34 pcre16
+# required by dev-qt/qtgui-5.14.0-r2::gentoo[xcb]
+# required by app-crypt/pinentry-1.1.0-r3::gentoo[qt5]
+# required by app-crypt/gnupg-2.2.19::gentoo
+# required by app-crypt/gpgme-1.13.1::gentoo
+# required by app-portage/portage-utils-0.84::gentoo
+# required by app-admin/perl-cleaner-2.28::gentoo
+# required by dev-lang/perl-5.30.1::gentoo
+# required by sys-devel/llvm-9.0.1::gentoo
+# required by media-libs/mesa-19.3.2::gentoo[-video_cards_r600,llvm,-video_cards_radeon,-opencl,-video_cards_radeonsi,gallium]
+# required by virtual/opengl-7.0-r2::gentoo
+>=x11-libs/libxcb-1.13.1 xkb
+# required by x11-misc/xdg-utils-1.1.3-r1::gentoo
+# required by kde-frameworks/kf-env-5::gentoo
+# required by kde-frameworks/kactivities-stats-5.66.0::gentoo
+# required by kde-plasma/plasma-workspace-5.17.5::gentoo
+# required by kde-plasma/plasma-desktop-5.17.5-r1::gentoo
+# required by plasma-desktop (argument)
+>=app-text/xmlto-0.0.28-r1 text
+# required by media-libs/phonon-vlc-0.11.1::gentoo
+# required by media-libs/phonon-4.11.1-r1::gentoo[vlc]
+# required by kde-plasma/plasma-workspace-5.17.5::gentoo
+# required by kde-plasma/plasma-desktop-5.17.5-r1::gentoo
+# required by plasma-desktop (argument)
+>=media-video/vlc-3.0.8 vorbis ogg dbus
+# required by media-video/vlc-3.0.8::gentoo
+# required by media-libs/phonon-vlc-0.11.1::gentoo
+# required by media-libs/phonon-4.11.1-r1::gentoo[vlc]
+# required by kde-plasma/plasma-workspace-5.17.5::gentoo
+# required by kde-plasma/plasma-desktop-5.17.5-r1::gentoo
+# required by plasma-desktop (argument)
+>=sys-libs/zlib-1.2.11-r2 minizip
+# required by sys-auth/polkit-0.116-r1::gentoo[systemd]
+# required by sys-auth/polkit-qt-0.113.0::gentoo
+# required by kde-frameworks/kauth-5.66.0::gentoo[policykit]
+# required by kde-frameworks/kdelibs4support-5.66.0::gentoo
+# required by kde-plasma/plasma-workspace-5.17.5::gentoo
+# required by kde-plasma/plasma-desktop-5.17.5-r1::gentoo
+# required by plasma-desktop (argument)
+>=sys-apps/systemd-244 policykit
+# required by kde-frameworks/kcoreaddons-5.66.0::gentoo
+# required by kde-frameworks/kdesignerplugin-5.66.0::gentoo
+# required by kde-frameworks/kdelibs4support-5.66.0::gentoo
+# required by kde-plasma/plasma-workspace-5.17.5::gentoo
+# required by kde-plasma/plasma-desktop-5.17.5-r1::gentoo
+# required by plasma-desktop (argument)
+>=dev-qt/qtcore-5.14.0 icu
+# required by kde-plasma/kwin-5.17.5::gentoo
+# required by kde-plasma/plasma-workspace-5.17.5::gentoo
+# required by kde-plasma/plasma-desktop-5.17.5-r1::gentoo
+# required by plasma-desktop (argument)
+>=media-libs/mesa-19.3.2 wayland
+# required by dev-qt/qtwayland-5.14.0::gentoo
+# required by kde-frameworks/kwayland-5.66.0::gentoo
+# required by kde-plasma/libkscreen-5.17.5::gentoo
+# required by kde-plasma/plasma-workspace-5.17.5::gentoo
+# required by kde-plasma/plasma-desktop-5.17.5-r1::gentoo
+# required by plasma-desktop (argument)
+>=dev-qt/qtgui-5.14.0-r2 egl 
+# required by kde-plasma/plasma-workspace-5.17.5::gentoo[systemd]
+# required by kde-plasma/plasma-desktop-5.17.5-r1::gentoo
+# required by plasma-desktop (argument)
+>=sys-apps/dbus-1.12.16 user-session
+# required by net-print/cups-filters-1.26.2::gentoo[postscript]
+# required by net-print/cups-2.3.1::gentoo
+# required by www-client/google-chrome-79.0.3945.130::gentoo
+# required by google-chrome (argument)
+>=app-text/ghostscript-gpl-9.50 cups
+# required by app-misc/neofetch-6.1.0::gentoo[X]
+# required by neofetch (argument)
+>=www-client/w3m-0.5.3_p20190105 imlib
+# required by media-gfx/inkscape-1.0_beta2::gentoo
+# required by inkscape (argument)
+>=app-text/poppler-0.84.0 cairo
+# required by dev-util/nvidia-cuda-toolkit-10.1.243-r1::gentoo
+# required by nvidia-cuda-toolkit (argument)
+>=x11-drivers/nvidia-drivers-440.44-r1 uvm
+# required by sci-libs/tensorflow-2.1.0::gentoo[cuda]
+# required by sci-libs/tensorflow-estimator-2.1::gentoo
+>=dev-util/nvidia-cuda-toolkit-10.1.243-r1 profiler
+# required by dev-python/matplotlib-3.1.2::gentoo[qt5]
+# required by sci-libs/scipy-1.4.1::yume
+# required by @selected
+# required by @world (argument)
+>=dev-python/PyQt5-5.14.1 widgets gui
+# required by dev-util/itstool-2.0.6-r1::gentoo[python_single_target_python3_6]
+# required by x11-misc/shared-mime-info-1.15::gentoo
+# required by dev-python/pygobject-3.34.0::gentoo
+# required by net-misc/networkmanager-1.18.4-r3::gentoo[introspection,-test]
+# required by @selected
+# required by @world (argument)
+>=dev-libs/libxml2-2.9.9-r3 python
+# required by gnome-base/gnome-keyring-3.34.0::gentoo
+# required by app-crypt/libsecret-0.20.3::gentoo
+# required by app-crypt/pinentry-1.1.0-r3::gentoo[gnome-keyring]
+# required by app-crypt/gnupg-2.2.20::gentoo
+# required by app-portage/gemato-14.4::gentoo[gpg]
+# required by sys-apps/portage-2.3.101-r1::gentoo[rsync-verify,-build]
+# required by app-admin/perl-cleaner-2.28::gentoo
+# required by dev-lang/perl-5.30.3::gentoo
+# required by virtual/perl-Time-HiRes-1.976.0::gentoo
+# required by dev-perl/Net-DBus-1.1.0::gentoo
+# required by x11-misc/xdg-utils-1.1.3_p20200220::gentoo
+# required by net-print/cups-2.3.3-r1::gentoo[X]
+# required by app-office/wps-office-11.1.0.9505::yume
+# required by @selected
+# required by @world (argument)
+>=app-crypt/gcr-3.34.0-r1 gtk
+# required by gnome-base/gnome-keyring-3.34.0::gentoo
+# required by app-crypt/libsecret-0.20.3::gentoo
+# required by gnome-extra/nm-applet-1.16.0::gentoo
+# required by gnome-extra/nm-applet (argument)
+>=app-crypt/pinentry-1.1.0-r3 gnome-keyring
